@@ -1,0 +1,11 @@
+Note:
+
+One of the useful things we could do with the bli command line interface
+is to use the command (e.x.)
+
+-- This stores the metadata that a projet is incomplete
+bli mark <project_name> incomplete
+
+Analogously, we can also do:
+
+bli ark <project_name> complete
