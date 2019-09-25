@@ -12,6 +12,9 @@ object Main extends App {
 
     parseUserInput(args) match {
       case Right(Help) => handleHelp()
+      case Right(Configure) => handleConfigure()
+      case Right(Disconnect) => handleDisconnect()
+      case Right(LogMultiLine) => handleLogMutliLine()
       case Right(Query(query)) => handleQuery(query)
       case Right(QueryOpen(query, isStrict)) => handleQueryOpen(query, isStrict)
       case Right(HelpDetailed(command)) => handleDetailedHelp(command)

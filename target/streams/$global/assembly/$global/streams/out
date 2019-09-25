@@ -1,7 +1,7 @@
-[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: snakeyaml-1.8.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: requests_2.12-0.2.0.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mIncluding from cache: cats-macros_2.12-1.6.0.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mIncluding from cache: machinist_2.12-0.6.6.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: snakeyaml-1.8.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: requests_2.12-0.2.0.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mIncluding from cache: cats-kernel_2.12-1.6.0.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scala-reflect-2.12.8.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mIncluding from cache: cats-core_2.12-1.6.0.jar[0m
@@ -13,7 +13,7 @@
 [0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.yaml/snakeyaml/pom.properties' with strategy 'discard'[0m
 [0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.yaml/snakeyaml/pom.xml' with strategy 'discard'[0m
 [0m[[0m[33mwarn[0m] [0m[0mStrategy 'discard' was applied to 3 files[0m
-[0m[[0m[0minfo[0m] [0m[0mSHA-1: aaa589b2cd9365e3ce3ddcc40623711903d5627c[0m
+[0m[[0m[0minfo[0m] [0m[0mSHA-1: 6d17f2508b4a088c71f27fd56a26454f2bc4f286[0m
 [0m[[0m[0minfo[0m] [0m[0mPackaging /home/nate/code/bli-tool/target/scala-2.12/bli-cli-assembly-1.0.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$.class[0m
@@ -22,28 +22,44 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$Alias$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$Alias.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$Alias.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commands$AliasT$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$AliasT$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$Command.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$Command.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commands$CommandType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$CommandType.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$Commit$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$Commit$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commands$CommitT$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$CommitT$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$Configure$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$Configure$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commands$ConfigureT$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$ConfigureT$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$Disconnect$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$Disconnect$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commands$DisconnectT$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$DisconnectT$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$Help$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$Help$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$HelpDetailed$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$HelpDetailed$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$HelpDetailed.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$HelpDetailed.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commands$HelpT$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$HelpT$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$LogMultiLine$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$LogMultiLine$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$LogSingleLine$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$LogSingleLine$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$LogSingleLine.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$LogSingleLine.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commands$LogT$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$LogT$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$Prolog$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$Prolog$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commands$PrologT$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$PrologT$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$Query$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$Query$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$Query.class[0m
@@ -52,16 +68,24 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$QueryOpen$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$QueryOpen.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$QueryOpen.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commands$QueryT$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$QueryT$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$Retrieve$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$Retrieve$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$Retrieve.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$Retrieve.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commands$RetrieveT$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$RetrieveT$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$Set$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$Set$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$Set.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$Set.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commands$SetT$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$SetT$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$UpdateReferences$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$UpdateReferences$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commands$UpdateReferencesT$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands$UpdateReferencesT$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/streams/$global/assemblyOption/$global/streams/assembly/d67084d851d9e7eeacd3a4e4155360800c056616_dir/Commands.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Config$.class[0m

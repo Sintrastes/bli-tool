@@ -6,12 +6,16 @@
 
 object Commands {
 
+  // A type for the specific sub-procedures that
+  // bedelibry can execute. To be passed to the
+  // appropriate handling functions.
+
   sealed trait Command
 
   case object Help extends Command
 
   case class HelpDetailed(
-    command: Command
+    command: CommandType
   ) extends Command
 
   case class Query(
@@ -52,5 +56,24 @@ object Commands {
   ) extends Command
 
   case object Prolog extends Command
+
+  //
+  // A type for all of the different
+  // types of command that can be exected. Not parameterized
+  // by command line arguments.
+  //
+
+  sealed trait CommandType
+  case object ConfigureT extends CommandType
+  case object DisconnectT extends CommandType
+  case object HelpT extends CommandType
+  case object QueryT extends CommandType
+  case object SetT extends CommandType
+  case object CommitT extends CommandType
+  case object UpdateReferencesT extends CommandType
+  case object LogT extends CommandType
+  case object RetrieveT extends CommandType
+  case object AliasT extends CommandType
+  case object PrologT extends CommandType
 
 }

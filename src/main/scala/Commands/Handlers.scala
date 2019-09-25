@@ -56,53 +56,42 @@ object Handlers {
      println("  prolog                Runs a bedebliry prolog REPL.")
   }
 
-  def handleDetailedHelp(command: Command) =
+  def handleDetailedHelp(command: CommandType) =
   {
     command match {
-      case Help => {
+      case HelpT => {
         println("\"bli help\" detailed usage:")
         println("  help (-h, --help):    Display this help screen")
         println("  help [sub_command]    Display more detailed documentation about a subcommand.")
       }
-      case HelpDetailed(_) => {
-        println("This shouldn't happen.")
-      }
-      case Query(_) => {
+      case QueryT => {
         println("\"bli query\" detailed usage:")
       }
-      case QueryOpen(_,_) => {
-        println("\"bli query open\" detailed usage:")
-      }
-      case UpdateReferences => {
+      case UpdateReferencesT => {
         println("\"bli update references\" detailed usage:")
       }
-      case Commit => {
+      case CommitT => {
         println("\"bli commit\" detailed usage:")
       }
-      case Configure => {
+      case ConfigureT => {
         println("\"bli configure\" detailed usage:")
       }
-      case Disconnect => {
+      case DisconnectT => {
         println("\"bli disconnect\" detailed usage:")
       }
-      case LogSingleLine(_) => {
-        println("\"bli log [arg]\" detailed usage:")
-      }
-      case LogMultiLine => {
+      case LogT => {
         println("\"bli log\" detailed usage:")
       }
-      case Retrieve(_) => {
+      case RetrieveT => {
         println("\"bli retrieve\" detailed usage:")
       }
-      case Alias(_,_) => {
+      case AliasT => {
         println("\"bli alias\" detailed usage:")
       }
-
-      case Set(_,_) => {
+      case SetT => {
         println("\"bli set\" detailed usage:")
       }
-
-      case Prolog => {
+      case PrologT => {
         println("\"bli prolog\" detailed usage:")
       }
     }
