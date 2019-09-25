@@ -6,5 +6,8 @@ project/boot/
 project/plugins/project/
 .history
 .cache
+.bloop
+project/.bloop
+.metals
 .lib/
 notes/*
