@@ -5,6 +5,7 @@
 //
 
 import Commands._
+import sys.process._
 
 object Handlers {
 
@@ -155,7 +156,14 @@ object Handlers {
 
   def handleProlog() =
   {
-
+    try {
+      "bli-prolog" !
+    } catch {
+      case e: Exception => {
+        println("Error opening bli-prolog executable:")
+        println("  " + e.toString())
+      }
+    }
   }
 
 }

@@ -1,10 +1,2 @@
-[0m[[0m[33mwarn[0m] [0m[0m/home/nate/code/bli-tool/src/main/scala/Main.scala:13:19: match may not be exhaustive.[0m
-[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: Right(Configure), Right(Disconnect), Right(LogMultiLine)[0m
-[0m[[0m[33mwarn[0m] [0m[0m    parseUserInput(args) match {[0m
-[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/nate/code/bli-tool/src/main/scala/Main.scala:13:19: match may not be exhaustive.[0m
-[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: Right(Configure), Right(Disconnect), Right(LogMultiLine)[0m
-[0m[[0m[33mwarn[0m] [0m[0m    parseUserInput(args) match {[0m
-[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere was one feature warning; re-run with -feature for details[0m
 [0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
