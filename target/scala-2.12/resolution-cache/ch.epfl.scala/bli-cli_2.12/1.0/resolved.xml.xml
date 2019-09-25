@@ -4,7 +4,7 @@
 		module="bli-cli_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20190924205044"
+		publication="20190924224200"
 	>
 		<description>
 		bli-cli
@@ -34,5 +34,6 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.typelevel" name="cats-core_2.12" rev="1.6.0" conf="compile->default(compile)"/>
 		<dependency org="com.lihaoyi" name="requests_2.12" rev="0.2.0" conf="compile->default(compile)"/>
+		<dependency org="org.yaml" name="snakeyaml" rev="1.8" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

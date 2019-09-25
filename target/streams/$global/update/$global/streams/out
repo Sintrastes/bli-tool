@@ -193,6 +193,15 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->com.lihaoyi#requests_2.12;0.2.0 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->com.lihaoyi#requests_2.12;0.2.0 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->com.lihaoyi#requests_2.12;0.2.0 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.yaml#snakeyaml;1.8 {compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.yaml#snakeyaml;1.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.yaml#snakeyaml;1.8 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.epfl.scala#bli-cli_2.12;1.0 [runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.epfl.scala#bli-cli_2.12;1.0 [compile][0m
@@ -364,6 +373,14 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->com.lihaoyi#requests_2.12;0.2.0 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->com.lihaoyi#requests_2.12;0.2.0 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->com.lihaoyi#requests_2.12;0.2.0 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test'[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.epfl.scala#bli-cli_2.12;1.0 [test][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.epfl.scala#bli-cli_2.12;1.0 [runtime][0m
@@ -550,6 +567,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->com.lihaoyi#requests_2.12;0.2.0 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->com.lihaoyi#requests_2.12;0.2.0 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->com.lihaoyi#requests_2.12;0.2.0 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'provided'[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.epfl.scala#bli-cli_2.12;1.0 [provided][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'optional'[0m
@@ -753,6 +780,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->com.lihaoyi#requests_2.12;0.2.0 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->com.lihaoyi#requests_2.12;0.2.0 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->com.lihaoyi#requests_2.12;0.2.0 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.epfl.scala#bli-cli_2.12;1.0 [optional][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.epfl.scala#bli-cli_2.12;1.0 [provided][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime-internal'[0m
@@ -955,6 +994,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->com.lihaoyi#requests_2.12;0.2.0 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->com.lihaoyi#requests_2.12;0.2.0 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->com.lihaoyi#requests_2.12;0.2.0 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.epfl.scala#bli-cli_2.12;1.0 [optional][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.epfl.scala#bli-cli_2.12;1.0 [test-internal][0m
@@ -1185,6 +1236,22 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->com.lihaoyi#requests_2.12;0.2.0 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->com.lihaoyi#requests_2.12;0.2.0 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->com.lihaoyi#requests_2.12;0.2.0 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, optional(default)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.scala#bli-cli_2.12;1.0->org.yaml#snakeyaml;1.8 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.epfl.scala#bli-cli_2.12;1.0 [optional][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for ch.epfl.scala#bli-cli_2.12;1.0 [provided][0m
 [0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'plugin'[0m
@@ -1331,112 +1398,17 @@
 [0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/nate/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.yaml#snakeyaml;1.8!snakeyaml.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lihaoyi#requests_2.12;0.2.0!requests_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#cats-core_2.12;1.6.0!cats-core_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#cats-macros_2.12;1.6.0!cats-macros_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#machinist_2.12;0.6.6!machinist_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#cats-kernel_2.12;1.6.0!cats-kernel_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/nate/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/nate/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/nate/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/nate/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/nate/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/nate/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/nate/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/nate/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/nate/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/nate/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/nate/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (22ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/nate/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/nate/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (23ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/nate/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (22ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/nate/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (23ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (24ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (23ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/nate/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/nate/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/nate/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.6!jline.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#machinist_2.12;0.6.6!machinist_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 298ms :: artifacts dl 39ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 63ms :: artifacts dl 1ms[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for ch.epfl.scala#bli-cli_2.12;1.0 compile produced in /home/nate/code/bli-tool/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-bli-cli_2.12-compile.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for ch.epfl.scala#bli-cli_2.12;1.0 runtime produced in /home/nate/code/bli-tool/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-bli-cli_2.12-runtime.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for ch.epfl.scala#bli-cli_2.12;1.0 test produced in /home/nate/code/bli-tool/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-bli-cli_2.12-test.xml[0m
@@ -1448,5 +1420,5 @@
 [0m[[0m[0mdebug[0m] [0m[0m	report for ch.epfl.scala#bli-cli_2.12;1.0 plugin produced in /home/nate/code/bli-tool/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-bli-cli_2.12-plugin.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for ch.epfl.scala#bli-cli_2.12;1.0 pom produced in /home/nate/code/bli-tool/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-bli-cli_2.12-pom.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for ch.epfl.scala#bli-cli_2.12;1.0 scala-tool produced in /home/nate/code/bli-tool/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-bli-cli_2.12-scala-tool.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (298ms resolve - 39ms download)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (63ms resolve - 1ms download)[0m
 [0m[[0m[0minfo[0m] [0m[0mDone updating.[0m

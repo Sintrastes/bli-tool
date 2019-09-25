@@ -72,6 +72,13 @@ object Parse {
             Left("\"bli alias\" should have exactly two arguments.")
           }
         }
+        case "prolog" => {
+          if (args.length == 1){
+            Right(Prolog)
+          } else {
+            Left("\"bli prolog\" should have exactly one argument")
+          }
+        }
         case _ => {
           Left("Invalid subcommand. Run \"bli help\" for proper argument format.")
         }

@@ -4,6 +4,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/scala-2.12/classes/Tests$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$LogSingleLine.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/scala-2.12/classes/Commands$LogSingleLine.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ConfigData.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/scala-2.12/classes/ConfigData.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$LogSingleLine$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/scala-2.12/classes/Commands$LogSingleLine$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$Query.class[0m
@@ -38,6 +40,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/scala-2.12/classes/Main.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$Alias.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/scala-2.12/classes/Commands$Alias.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Commands$Prolog$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/scala-2.12/classes/Commands$Prolog$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$Alias$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/scala-2.12/classes/Commands$Alias$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Parse$.class[0m
@@ -48,10 +52,14 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/scala-2.12/classes/Commands$Set.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$Query$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/scala-2.12/classes/Commands$Query$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Config$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/scala-2.12/classes/Config$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$Help$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/scala-2.12/classes/Commands$Help$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$QueryOpen$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/scala-2.12/classes/Commands$QueryOpen$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Config.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/scala-2.12/classes/Config.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Handlers.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/nate/code/bli-tool/target/scala-2.12/classes/Handlers.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Commands$.class[0m

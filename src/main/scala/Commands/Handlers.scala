@@ -52,6 +52,7 @@ object Handlers {
      println("  retrieve              Retrieves the content of a note, journal article, or")
      println("                        bibTex reference given its primaryId. ")
      println("  alias [id] [new_id]   Creates a new alias for a pre-existing id (does not have to be primary)")
+     println("  prolog                Runs a bedebliry prolog REPL.")
   }
 
   def handleDetailedHelp(command: Command) =
@@ -99,6 +100,10 @@ object Handlers {
       case Set(_,_) => {
         println("\"bli set\" detailed usage:")
       }
+
+      case Prolog => {
+        println("\"bli prolog\" detailed usage:")
+      }
     }
   }
 
@@ -144,6 +149,11 @@ object Handlers {
   }
 
   def handleAlias(id1: String, id2: String) =
+  {
+
+  }
+
+  def handleProlog() =
   {
 
   }

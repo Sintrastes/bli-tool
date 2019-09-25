@@ -2,8 +2,14 @@
 import Commands._
 import Parse._
 import Handlers._
+import Config._
 
 object Main extends App {
+
+    var configData = getConfigData()
+    // println(configData.ipAddress)
+    // println(configData.portNumber)
+
     parseUserInput(args) match {
       case Right(Help) => handleHelp()
       case Right(Query(query)) => handleQuery(query)
@@ -15,6 +21,7 @@ object Main extends App {
       case Right(LogSingleLine(content)) => handleLogSingleLine(content)
       case Right(Retrieve(entityId)) => handleRetrieve(entityId)
       case Right(Alias(id1, id2)) => handleAlias(id1, id2)
+      case Right(Prolog) => handleProlog()
       case Left(errorMsg) => {
         println(errorMsg)
       }

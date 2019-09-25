@@ -51,4 +51,6 @@ object Commands {
     new_id: String
   ) extends Command
 
+  case object Prolog extends Command
+
 }
