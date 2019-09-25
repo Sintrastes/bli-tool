@@ -126,7 +126,15 @@ object Handlers {
 
   def handleCommit() =
   {
+    // Note: Currently this is just an alias for {
+    // two git commands, but I plan on adding more
+    // features later
 
+    // Also, this should take in a command line argument,
+    // rather than having a fixed commit message.
+    "git add -A" ! ;
+    // I have no clue why this doesn't work.
+    "git commit -m \"Commit from bedelibry!\"" !
   }
 
   def handleUpdateReferences() =

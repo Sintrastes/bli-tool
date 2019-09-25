@@ -10,6 +10,9 @@ object Parse {
   // Note: None of this currently deals with "help detailed"
   def parseUserInput(args: Array[String]): Either[String,Command] =
   {
+    // First, check to see if this is a detailed help command
+
+    // Otherwise, parse all of the normal subcommands
     if (args.length != 0) {
       args(0).toLowerCase match
       {
@@ -17,6 +20,9 @@ object Parse {
         case "--help" => Right(Help)
         case "-h" => Right(Help)
         case "query" => {
+          // Check to see if this is a detailed help command
+
+          // Parse syntax for a regular query
           if (args.length == 2) {
             Right(Query(args(1)))
           } else if (args.length == 3) {
@@ -30,19 +36,47 @@ object Parse {
           } else {
             Left("Invalid number of arguments.")
           }
-
         }
-        case "configure" => Right(Configure)
-        case "disconnect" => Right(Disconnect)
+        case "configure" => {
+          if (args.length == 1) {
+            Right(Configure)
+          } else if ((args.length == 2) && (args(1).toLowerCase() == "help")) {
+            Right(HelpDetailed(Configure))
+          } else {
+            Left("Invalid number of arguments")
+          }
+        }
+        case "disconnect" => {
+          // Note: I don't think the error messages here are exactly accurate
+          if (args.length == 1){
+            Right(Disconnect)
+          } else {
+            if ((args.length == 2) && (args(1).toLowerCase() == "help")) {
+              Right(HelpDetailed(Disconnect))
+            } else {
+              Left("Invalid number of arguments")
+            }
+          }
+        }
         case "set" => {
           if (args.length == 3) {
             Right(Set(args(1),args(2)))
+          } else if (args.length == 2 && args(1).toLowerCase() == "help") {
+            Right(HelpDetailed(Set("","")))
           } else {
             Left("\"bli set\" should have exactly two arguments.")
           }
         }
-        case "commit" => Right(Commit)
+        case "commit" => {
+          // Note: I want to fix the logic of this command before
+          // I write the logic for handling it's commandline
+          // arguents
+          Right(Commit)
+        }
         case "update" => {
+          // Parse detailed help command
+
+          // Parse regular update command
           if (args.length >= 2 && args(1).toLowerCase() == "references") {
             Right(UpdateReferences)
           } else {
@@ -50,6 +84,9 @@ object Parse {
           }
         }
         case "log" => {
+          // Parse detailed help command
+
+          // Parse regular log command
           if (args.length == 2){
             Right(LogSingleLine(args(1)))
           } else if (args.length == 1) {
@@ -59,6 +96,9 @@ object Parse {
           }
         }
         case "retrieve" => {
+          // Parse detailed help command
+
+          // Parse regular retireve command
           if (args.length == 2){
             Right(Retrieve(args(1)))
           } else {
@@ -76,7 +116,7 @@ object Parse {
           if (args.length == 1){
             Right(Prolog)
           } else {
-            Left("\"bli prolog\" should have exactly one argument")
+            Left("\"bli prolog\"")
           }
         }
         case _ => {
