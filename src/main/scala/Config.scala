@@ -14,7 +14,6 @@ object Config {
     {
       val homeDir = System.getProperty("user.home")
       val configDirPath = homeDir + "/.bli-tool"
-      println(configDirPath)
       val configDir = new File(configDirPath)
       val configPath = configDirPath + "/config.yaml"
       val inputFile = new File(configPath)
