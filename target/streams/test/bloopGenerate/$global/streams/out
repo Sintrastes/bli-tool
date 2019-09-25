@@ -1,0 +1,4 @@
+[debug] [bli-tool-test] Classpath dependencies List()
+[debug] [bli-tool-test] Dependencies from configurations List(bli-tool)
+[debug] Bloop wrote the configuration of project 'bli-tool-test' to '/home/nate/code/bli-tool/.bloop/bli-tool-test.json'
+[success] Generated .bloop/bli-tool-test.json

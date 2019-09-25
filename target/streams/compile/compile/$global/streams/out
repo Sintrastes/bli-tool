@@ -1,4 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m/home/nate/code/scala_bli/src/main/scala/Main.scala:28:3: ')' expected but '}' found.[0m
-[0m[[0m[31merror[0m] [0m[0m  }[0m
-[0m[[0m[31merror[0m] [0m[0m  ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/nate/code/bli-tool/src/main/scala/Main.scala:7:19: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: Right(Configure), Right(Disconnect), Right(LogMultiLine)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    parseUserInput(args) match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

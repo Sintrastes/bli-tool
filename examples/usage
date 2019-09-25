@@ -1,0 +1,46 @@
+-------------------------------------
+bli configure
+> Please enter the ip address of the bedelibry server
+  you would like to use with bli:
+  > 127.0.0.1
+> Please enter the port number for this server
+  > 42069
+   > Success! Established connection to the bedelibry server
+     at 127.0.0.1:42069
+   > Failure. <Error message>
+> bli has already been configured with a bedelibry server at
+  ... . Continue? [y/N]
+-------------------------------------
+bli query programming_language(X)
+> haskell
+> prolog
+> scala
+> ...
+-------------------------------------
+bli query "\Y. programming_language(X), name(X, Y)"
+> "haskell"
+> "prolog"
+> "scala"
+> ...
+-------------------------------------
+bli query ""
+-------------------------------------
+-- Note: The bli set command uses some special syntactic sugar
+-- to avoid verbosity.
+-- Here, code_project is a special predicate, because it
+-- declares the *type* of an entity, and causes
+--
+bli set ./ code_project
+> (adds a code repository at file:/.../path/to/directory/ )
+-------------------------------------
+bli set ./ code_project scratch
+-------------------------------------
+bli set ./path/to/my.pdf paper author("Nathan Bedell")
+-----------------------------------
+Interacting with notes
+-----------------------------------
+-- Again, this uses syntactic sugar, and expands to
+-- note(X), tagged(X, about(haskell)).
+bli query 'note, tagged(about(haskell)).'
+> (lists the primaryIDs of all notes about haskell stored
+   in the bedelibry database)
