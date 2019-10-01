@@ -153,9 +153,8 @@ object Handlers {
 
   def handleProlog() =
   {
-    // Note: This also doesn't work
     try {
-      "bli-prolog -v=false" !
+       Seq("bli-prolog").!<
     } catch {
       case e: Exception => {
         println("Error opening bli-prolog executable:")
